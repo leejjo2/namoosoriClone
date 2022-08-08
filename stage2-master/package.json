@@ -1,0 +1,26 @@
+{
+  "name": "stage2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "StoryAssistant.js",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.3",
+    "nodemon": "^2.0.7",
+    "readline-sync": "^1.4.10",
+    "requirer": "0.0.4",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3"
+  },
+  "scripts": {
+    "step1-cli": "tsc && node build/step1/entity/StoryAssistant.js",
+    "step2-cli": "tsc && node build/step2/StoryAssistant.js",
+    "step3-cli": "tsc && node build/step3/StoryAssistant.js",
+    "step4-cli": "tsc && node build/step4/StoryAssistant.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "",
+  "license": "ISC"
+}
